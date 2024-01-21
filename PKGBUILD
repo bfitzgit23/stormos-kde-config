@@ -1,6 +1,6 @@
 pkgname=stormos-kde-config
 _destname1="/etc"
-pkgver=23.12
+pkgver=24.01
 pkgrel=1
 pkgdesc="Desktop Config for StormOS KDE"
 arch=('any')
