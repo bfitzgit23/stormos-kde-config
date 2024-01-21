@@ -1,0 +1,13 @@
+[Appearance]
+BackgroundColorOpacity=80
+Blur=false
+Translucency=true
+
+[Desktop Entry]
+DefaultProfile=StormOS.profile
+
+[Dialogs]
+FirstRun=false
+
+[Favorite Profiles]
+Favorites=
