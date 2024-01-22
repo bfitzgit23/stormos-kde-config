@@ -79,7 +79,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][44][Applets][49][Configuration]
-PreloadWeight=85
+PreloadWeight=95
 SystrayContainmentId=50
 
 [Containments][44][Applets][61]
@@ -106,12 +106,20 @@ plugin=org.kde.plasma.icon
 localPath=/home/ben/.local/share/plasma_icons/chromium.desktop
 url=file:///usr/share/applications/chromium.desktop
 
+[Containments][44][Applets][70]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][44][Applets][70][Configuration]
+localPath=/home/ben/.local/share/plasma_icons/system-tool.desktop
+url=file:///usr/share/applications/system-tool.desktop
+
 [Containments][44][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
 
 [Containments][44][General]
-AppletOrder=45;46;68;67;47;48;49;61;62
+AppletOrder=45;46;68;67;70;47;48;49;61;62
 
 [Containments][50]
 activityId=
@@ -148,7 +156,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][50][Applets][55][Configuration]
-PreloadWeight=60
+PreloadWeight=70
 
 [Containments][50][Applets][56]
 immutability=1
@@ -188,6 +196,10 @@ plugin=org.kde.plasma.networkmanagement
 
 [Containments][50][Applets][66][Configuration]
 PreloadWeight=70
+
+[Containments][50][Applets][69]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
 
 [Containments][50][General]
 extraItems=org.kde.plasma.bluetooth,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.vault,org.kde.plasma.clipboard,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.nightcolorcontrol
