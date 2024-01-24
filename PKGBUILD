@@ -1,7 +1,7 @@
 pkgname=stormos-kde-config
 _destname1="/etc"
 pkgver=24.01
-pkgrel=1
+pkgrel=2
 pkgdesc="Desktop Config for StormOS KDE"
 arch=('any')
 url="https://github.com/bfitzgit23"
