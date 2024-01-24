@@ -1,2 +1,8 @@
+[Theme]
+name=breeze-dark
+
+[Theme-plasmathemeexplorer]
+name=Arc-Color
+
 [Wallpapers]
-usersWallpapers=/usr/share/backgrounds/arcolinux/koi-fishes-1920x1080.png,/usr/share/backgrounds/arcolinux/arco-wallpaper.jpg,/usr/share/backgrounds/arcolinux/arco-login.jpg,/usr/share/backgrounds/arcolinux/arco-login-plasma.jpg,/usr/share/backgrounds/stormos/stormremake.png
+usersWallpapers=/usr/share/backgrounds/stormos/stormremake.png

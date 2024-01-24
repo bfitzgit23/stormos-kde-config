@@ -136,18 +136,19 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [General]
-BrowserApplication=firefox.desktop
+BrowserApplication=chromium.desktop
+ColorScheme=BreezeDark
 ColorSchemeHash=01662607e36cd33eacc7d7d7189f69c26b9a2cc8
-Name=Breeze Light
+Name=Breeze Dark
 XftAntialias=true
 XftHintStyle=hintfull
 XftSubPixel=rgb
-fixed=Hack,9,-1,5,50,0,0,0,0,0,Regular
-font=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
-menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+fixed=DejaVu Sans Mono,10,-1,5,50,0,0,0,0,0
+font=DejaVu Sans Mono,10,-1,5,50,0,0,0,0,0
+menuFont=DejaVu Sans Mono,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
-smallestReadableFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
-toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+smallestReadableFont=DejaVu Sans Mono,8,-1,5,50,0,0,0,0,0
+toolBarFont=DejaVu Sans Mono,10,-1,5,50,0,0,0,0,0
 
 [Icons]
 Theme=Surfn-Plasma-Dark-Tela
@@ -159,7 +160,6 @@ ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
 SingleClick=false
 contrast=4
-widgetStyle=kvantum-dark
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -188,7 +188,7 @@ ToolButtonStyleOtherToolbars=TextBesideIcon
 [WM]
 activeBackground=49,54,59
 activeBlend=252,252,252
-activeFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+activeFont=DejaVu Sans Mono,10,-1,5,50,0,0,0,0,0
 activeForeground=252,252,252
 inactiveBackground=42,46,50
 inactiveBlend=161,169,177
